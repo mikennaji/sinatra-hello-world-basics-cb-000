@@ -4,6 +4,9 @@ class App < Sinatra::Base
  get '/' do
    "Hello, World!"
  end
- 
+
+ get '/search' do 
+    "Search"
+  end 
 
 end
